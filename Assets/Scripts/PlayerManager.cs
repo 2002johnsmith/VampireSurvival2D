@@ -108,7 +108,9 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    void FixedUpdate() => rb.linearVelocity = movement * speed;
-
+    void FixedUpdate()
+    {
+        rb.linearVelocity = movement * speed;
+    }
     private void Movement2D(Vector2 dir) => movement = dir;
 }
