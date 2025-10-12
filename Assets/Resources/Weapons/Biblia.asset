@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b1eeba499742e4b93384c561245d54, type: 3}
+  m_Name: Biblia
+  m_EditorClassIdentifier: 
+  _WeaponName: Biblia
+  _Icon: {fileID: 0}
+  _TypeWeapon: 1
+  _bullet: {fileID: 7983864147261329758, guid: 27d4e25fe0ac77d47958cbc44aad4926, type: 3}
+  _IdWeapon: 2
+  _Damage: 10
+  _Cooldown: 2
+  _Speed: 2
+  _count: 10
+  _size: 0.2
+  _range: 50
+  _duration: 10
+  _target: 1
+  Perfo: 1

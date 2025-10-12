@@ -26,6 +26,6 @@ public class MenuManager : MonoBehaviour
 
     public void ExitGame()
     {
-        GameManager.Instance.ExitGame();
+       // GameManager.Instance.ExitGame();
     }
 }

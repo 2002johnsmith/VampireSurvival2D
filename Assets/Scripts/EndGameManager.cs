@@ -31,6 +31,6 @@ public class EndGameManager : MonoBehaviour
     public void ReturnToMenu()
     {
         Time.timeScale = 1f;
-        GameManager.Instance.LoadScene("MenuScene");
+        //GameManager.Instance.LoadScene("MenuScene");
     }
 }

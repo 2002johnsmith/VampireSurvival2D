@@ -30,10 +30,11 @@ public class WeaponSelectUI : MonoBehaviour
         PlayerPrefs.SetInt("SelectedWeapon", selectedWeaponIndex);
         PlayerPrefs.Save();
         Debug.Log($"WeaponSelectUI: PlayerPrefs Saved SelectedWeapon={selectedWeaponIndex}");
-
+/*
         if (GameManager.Instance != null)
-            GameManager.Instance.LoadScene("GameScene");
+            //GameManager.Instance.LoadScene("GameScene");
         else
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+*/
     }
 }
